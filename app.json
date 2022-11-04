@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "android",
+    "name": "Predict Loan",
     "slug": "android",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.loan.prediction.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
