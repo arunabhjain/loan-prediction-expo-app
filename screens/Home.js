@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center",
     textAlign: "center",
   },
   headerImage: {
@@ -40,7 +39,8 @@ const styles = StyleSheet.create({
     fontSize: 40,
     color: "#fff",
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 50,
+    marginTop: 100,
   },
   button: {
     height: 50,

@@ -297,7 +297,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#14bf98",
     marginTop: 7.5,
     marginBottom: 7.5,
-    width: 150,
+    width: 140,
     display: "flex",
     justifyContent: "center",
     alignContent: "center",
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     height: 75,
-    width: "90%",
+    width: 300,
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",

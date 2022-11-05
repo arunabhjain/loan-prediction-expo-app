@@ -20,11 +20,11 @@ const DropdownComponent = (props) => {
           styles.dropdown,
           isFocus && { borderColor: "#14bf98", borderWidth: 2 },
         ]}
+        itemTextStyle={styles.itemTextStyle}
         placeholderStyle={styles.placeholderStyle}
         selectedTextStyle={styles.selectedTextStyle}
         inputSearchStyle={styles.inputSearchStyle}
         data={props.name}
-        maxHeight={300}
         labelField="label"
         valueField="value"
         placeholder={!isFocus ? "Please Select" : ""}
@@ -47,12 +47,13 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     backgroundColor: "#382B73",
   },
+
   dropdown: {
     textAlign: "center",
     height: 70,
     width: 300,
     borderWidth: 1,
-    borderColor: "#d3d3d3",
+    borderColor: "#F7CA15",
     borderRadius: 20,
     paddingHorizontal: 8,
     color: "white",
@@ -61,7 +62,7 @@ const styles = StyleSheet.create({
   label: {
     width: 150,
     position: "absolute",
-    backgroundColor: "#d3d3d3",
+    backgroundColor: "#F7CA15",
     color: "#382B73",
     left: 75,
     top: -8,
@@ -81,5 +82,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 16,
     color: "white",
+  },
+  itemTextStyle: {
+    color: "#382B73",
   },
 });

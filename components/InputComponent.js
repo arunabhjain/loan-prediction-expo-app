@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   label: {
     width: 150,
     position: "absolute",
-    backgroundColor: "#d3d3d3",
+    backgroundColor: "#F7CA15",
     color: "#382B73",
     left: 75,
     top: -8,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     height: 70,
     width: 300,
     borderWidth: 1,
-    borderColor: "#d3d3d3",
+    borderColor: "#F7CA15",
     borderRadius: 20,
     paddingHorizontal: 8,
     color: "white",
